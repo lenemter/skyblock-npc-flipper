@@ -21,7 +21,7 @@ def get_bazaar_data(api_key: str) -> dict:
             raise requests.RequestException
 
     except requests.RequestException:
-        print('Something went wrong when getting prices.')
+        print('Something went wrong while getting prices')
         exit()
     except KeyboardInterrupt:
         exit()
@@ -60,18 +60,19 @@ def calculate() -> list:
 
     success = []
     for item in items:
-        item_name, npc_price, item_id, enchanted_name, enchanted_id = item
-        if not npc_price:
-            continue
+        item_name, npc_price, item_id, enchanted_name, enchanted_id, enchanted_materials, enchanted_amount = item
         npc_price = float(npc_price)
+
         product_price = round(bazaar_products[item_id]['quick_status']['sellPrice'], 1)
         product_profit = product_price * 640 - npc_price * 640
         result = [item_name, product_profit]
 
         # enchanted form is optional
         try:
+            enchanted_materials = int(enchanted_materials)
+            enchanted_amount = int(enchanted_amount)
             enchanted_price = round(bazaar_products[enchanted_id]['quick_status']['sellPrice'], 1)
-            enchanted_profit = enchanted_price * 4 - npc_price * 640
+            enchanted_profit = enchanted_price * (640 // enchanted_materials) * enchanted_amount - npc_price * 640
             result.extend([enchanted_name, enchanted_profit])
         except Exception:
             pass

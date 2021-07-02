@@ -1,50 +1,50 @@
-﻿Name,Price,Product ID,Enchanted Name,Enchanted Product ID
-Rotten Flesh,8,ROTTEN_FLESH,Enchanted Rotten Flesh,ENCHANTED_ROTTEN_FLESH
-Bone,8,BONE,Enchanted Bone,ENCHANTED_BONE
-String,10,STRING,Enchanted String,ENCHANTED_STRING
-Gunpowder,10,SULPHUR,Enchanted Gunpowder,ENCHANTED_GUNPOWDER
-Slimeball,14,SLIME_BALL,Enchanted Slimeball,ENCHANTED_SLIME_BALL
-Oak Wood,5,LOG,Enchanted Oak Wood,ENCHANTED_OAK_LOG
-Birch Wood,5,LOG:2,Enchanted Birch Wood,ENCHANTED_BIRCH_LOG
-Spruce Wood,5,LOG:1,Enchanted Spruce Wood,ENCHANTED_SPRUCE_LOG
-Dark Oak Wood,5,LOG_2:1,Enchanted Dark Oak Wood,ENCHANTED_DARK_OAK_LOG
-Acacia Wood,5,LOG_2,Enchanted Acacia Wood,ENCHANTED_ACACIA_LOG
-Jungle Wood,5,LOG:3,Enchanted Jungle Wood,ENCHANTED_JUNGLE_LOG
-Coal,4,COAL,Enchanted Coal,ENCHANTED_COAL
-Iron Ingot (Mine Merchant),6,IRON_INGOT,Enchanted Iron Ingot (Mine Merchant),ENCHANTED_IRON
-Iron Ingot (Iron Forger),5,IRON_INGOT,Enchanted Iron Ingot (Iron Forger),ENCHANTED_IRON
-Gold Ingot,6,GOLD_INGOT,Enchanted Gold Ingot,ENCHANTED_GOLD
-Cobblestone (Mine Merchant),3,COBBLESTONE,Enchanted Cobblestone (Mine Merchant),ENCHANTED_COBBLESTONE
-Cobblestone (Builder),2,COBBLESTONE,Enchanted Cobblestone (Builder),ENCHANTED_COBBLESTONE
-Gravel (Mine Merchant),6,GRAVEL,,
-Gravel (Pat),4,GRAVEL,,
-Gravel (Builder),32,GRAVEL,,
-Flint,6,FLINT,Enchanted Flint,ENCHANTED_FLINT
-Raw Fish,20,RAW_FISH,Enchanted Raw Fish,ENCHANTED_RAW_FISH
-Raw Salmon,30,RAW_FISH:1,Enchanted Raw Salmon,ENCHANTED_RAW_SALMON
-Clownfish,100,RAW_FISH:2,Enchanted Clownfish,ENCHANTED_CLOWNFISH
-Pufferfish,40,RAW_FISH:3,Enchanted Pufferfish,ENCHANTED_PUFFERFISH
-Nether Wart,10,NETHER_STALK,Enchanted Nether Wart,ENCHANTED_NETHER_STALK
-Rabbit's Foot,10,RABBIT_FOOT,Enchanted Rabbit's Foot,ENCHANTED_RABBIT_FOOT
-Spider Eye,12,SPIDER_EYE,Enchanted Spider Eye,ENCHANTED_SPIDER_EYE
-Ghast Tear,200,GHAST_TEAR,Enchanted Ghast Tear,ENCHANTED_GHAST_TEAR
-Magma Cream,20,MAGMA_CREAM,Enchanted Magma Cream,ENCHANTED_MAGMA_CREAM
-Sand (Builder),2,SAND,Enchanted Sand (Builder),ENCHANTED_SAND
-Sand (Farm Merchant),4,SAND,Enchanted Sand (Farm Merchant),ENCHANTED_SAND
-Ice,1,ICE,Enchanted Ice,ENCHANTED_ICE
-Packed Ice,9,PACKED_ICE,Enchanted Ice,ENCHANTED_ICE
-Redstone,4,REDSTONE,Enchanted Redstone,ENCHANTED_REDSTONE
-Wheat,2,WHEAT,Hay Bale,HAY_BLOCK
-Carrot,2,CARROT_ITEM,Enchanted Carrot,ENCHANTED_CARROT
-Potato,2,POTATO_ITEM,Enchanted Potato,ENCHANTED_POTATO
-Melon,2,MELON,Enchanted Melon,ENCHANTED_MELON
-Sugar Cane,5,SUGAR_CANE,Enchanted Sugar,ENCHANTED_SUGAR
-Pumpkin,8,PUMPKIN,Enchanted Pumpkin,ENCHANTED_PUMPKIN
-Cocoa Beans,5,INK_SACK:3,Enchanted Cocoa Beans,ENCHANTED_COCOA
-Red Mushroom,12,RED_MUSHROOM,Enchanted Red Mushroom,ENCHANTED_RED_MUSHROOM
-Brown Mushroom,12,BROWN_MUSHROOM,Enchanted Brown Mushroom,ENCHANTED_BROWN_MUSHROOM
-Cactus,10,CACTUS,,
-End Stone,10,ENDER_STONE,Enchanted End Stone,ENCHANTED_ENDSTONE
-Obsidian (End),50,OBSIDIAN,Enchanted Obsidian (End),ENCHANTED_OBSIDIAN
-Obsidian (Builder),99,OBSIDIAN,Enchanted Obsidian (Builder),ENCHANTED_OBSIDIAN
-,,,,
+﻿Name,Price,Product ID,Enchanted Name,Enchanted Product ID,Enchanted Materials Count,Enchanted Amount
+Rotten Flesh,8,ROTTEN_FLESH,Enchanted Rotten Flesh,ENCHANTED_ROTTEN_FLESH,160,1
+Bone,8,BONE,Enchanted Bone,ENCHANTED_BONE,160,1
+String,10,STRING,Enchanted String,ENCHANTED_STRING,160,1
+Gunpowder,10,SULPHUR,Enchanted Gunpowder,ENCHANTED_GUNPOWDER,160,1
+Slimeball,14,SLIME_BALL,Enchanted Slimeball,ENCHANTED_SLIME_BALL,160,1
+Oak Wood,5,LOG,Enchanted Oak Wood,ENCHANTED_OAK_LOG,160,1
+Birch Wood,5,LOG:2,Enchanted Birch Wood,ENCHANTED_BIRCH_LOG,160,1
+Spruce Wood,5,LOG:1,Enchanted Spruce Wood,ENCHANTED_SPRUCE_LOG,160,1
+Dark Oak Wood,5,LOG_2:1,Enchanted Dark Oak Wood,ENCHANTED_DARK_OAK_LOG,160,1
+Acacia Wood,5,LOG_2,Enchanted Acacia Wood,ENCHANTED_ACACIA_LOG,160,1
+Jungle Wood,5,LOG:3,Enchanted Jungle Wood,ENCHANTED_JUNGLE_LOG,160,1
+Coal,4,COAL,Enchanted Coal,ENCHANTED_COAL,160,1
+Iron Ingot (Mine Merchant),6,IRON_INGOT,Enchanted Iron Ingot (Mine Merchant),ENCHANTED_IRON,160,1
+Iron Ingot (Iron Forger),5,IRON_INGOT,Enchanted Iron Ingot (Iron Forger),ENCHANTED_IRON,160,1
+Gold Ingot,6,GOLD_INGOT,Enchanted Gold Ingot,ENCHANTED_GOLD,160,1
+Cobblestone (Mine Merchant),3,COBBLESTONE,Enchanted Cobblestone (Mine Merchant),ENCHANTED_COBBLESTONE,160,1
+Cobblestone (Builder),2,COBBLESTONE,Enchanted Cobblestone (Builder),ENCHANTED_COBBLESTONE,160,1
+Gravel (Mine Merchant),6,GRAVEL,,,,
+Gravel (Pat),4,GRAVEL,,,,
+Gravel (Builder),32,GRAVEL,,,,
+Flint,6,FLINT,Enchanted Flint,ENCHANTED_FLINT,160,1
+Raw Fish,20,RAW_FISH,Enchanted Raw Fish,ENCHANTED_RAW_FISH,160,1
+Raw Salmon,30,RAW_FISH:1,Enchanted Raw Salmon,ENCHANTED_RAW_SALMON,160,1
+Clownfish,100,RAW_FISH:2,Enchanted Clownfish,ENCHANTED_CLOWNFISH,160,1
+Pufferfish,40,RAW_FISH:3,Enchanted Pufferfish,ENCHANTED_PUFFERFISH,160,1
+Nether Wart,10,NETHER_STALK,Enchanted Nether Wart,ENCHANTED_NETHER_STALK,160,1
+Rabbit's Foot,10,RABBIT_FOOT,Enchanted Rabbit's Foot,ENCHANTED_RABBIT_FOOT,160,1
+Spider Eye,12,SPIDER_EYE,Enchanted Spider Eye,ENCHANTED_SPIDER_EYE,160,1
+Ghast Tear,200,GHAST_TEAR,Enchanted Ghast Tear,ENCHANTED_GHAST_TEAR,160,1
+Magma Cream,20,MAGMA_CREAM,Enchanted Magma Cream,ENCHANTED_MAGMA_CREAM,160,1
+Sand (Builder),2,SAND,Enchanted Sand (Builder),ENCHANTED_SAND,160,1
+Sand (Farm Merchant),4,SAND,Enchanted Sand (Farm Merchant),ENCHANTED_SAND,160,1
+Ice,1,ICE,Enchanted Ice,ENCHANTED_ICE,160,1
+Ice,1,ICE,Packed Ice,PACKED_ICE,9,1
+Packed Ice,9,PACKED_ICE,Enchanted Ice,ENCHANTED_ICE,160,9
+Redstone,4,REDSTONE,Enchanted Redstone,ENCHANTED_REDSTONE,160,1
+Wheat,2,WHEAT,Hay Bale,HAY_BLOCK,9,1
+Carrot,2,CARROT_ITEM,Enchanted Carrot,ENCHANTED_CARROT,160,1
+Potato,2,POTATO_ITEM,Enchanted Potato,ENCHANTED_POTATO,160,1
+Melon,2,MELON,Enchanted Melon,ENCHANTED_MELON,160,1
+Sugar Cane,5,SUGAR_CANE,Enchanted Sugar,ENCHANTED_SUGAR,160,1
+Pumpkin,8,PUMPKIN,Enchanted Pumpkin,ENCHANTED_PUMPKIN,160,1
+Cocoa Beans,5,INK_SACK:3,Enchanted Cocoa Beans,ENCHANTED_COCOA,160,1
+Red Mushroom,12,RED_MUSHROOM,Enchanted Red Mushroom,ENCHANTED_RED_MUSHROOM,160,1
+Brown Mushroom,12,BROWN_MUSHROOM,Enchanted Brown Mushroom,ENCHANTED_BROWN_MUSHROOM,160,1
+Cactus,10,CACTUS,,,,
+End Stone,10,ENDER_STONE,Enchanted End Stone,ENCHANTED_ENDSTONE,160,1
+Obsidian (End),50,OBSIDIAN,Enchanted Obsidian (End),ENCHANTED_OBSIDIAN,160,1
+Obsidian (Builder),99,OBSIDIAN,Enchanted Obsidian (Builder),ENCHANTED_OBSIDIAN,160,1
