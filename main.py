@@ -26,6 +26,7 @@ def get_bazaar_data(api_key: str) -> dict:
     except KeyboardInterrupt:
         exit()
 
+    # noinspection PyUnboundLocalVariable
     bazaar_data = json.loads(request.text)
     return bazaar_data
 
@@ -53,6 +54,10 @@ except Exception:
     exit()
 
 
+def has_enchanted(row):
+    return len(row) == 4
+
+
 def calculate() -> list:
     bazaar_data = get_bazaar_data(api_key)
     bazaar_products = bazaar_data['products']
@@ -76,8 +81,7 @@ def calculate() -> list:
             result.extend([enchanted_name, enchanted_profit])
         except Exception:
             pass
-        has_enchanted = len(result) == 4
-        validation = any([int(result[1]) > 0, int(result[3]) > 0]) if has_enchanted else int(result[1]) > 0
+        validation = any([int(result[1]) > 0, int(result[3]) > 0]) if has_enchanted(result) else int(result[1]) > 0
         if validation:
             success.append(result)
 
@@ -94,6 +98,8 @@ try:
             header = ["Item name", "Profit", "Enchanted item name", "Enchanted profit"]
             table = tabulate(result, headers=header, tablefmt='psql', floatfmt=".1f")
             print(table)
+            max_profit = sum(max((row[1], row[3] if has_enchanted(row) else row[1])) for row in result)
+            print(f'Max profit: {max_profit}')
         else:
             print('No results')
         print('Table updates automatically every 30 seconds')
